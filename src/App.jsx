@@ -18,6 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/" element={<Login />} />
 
           {/* Protect these routes */}
           <Route
